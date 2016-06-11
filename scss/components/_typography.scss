@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+p,
+a {
+	line-height: 1.5;
+}
+
+h1,
+h2 {
+	font-family: $header-font;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: $body-font;	
+}
+
+p,
+a {
+	font-family: $header-font;
+}
+
+a {
+	color: darken($blue, 20%);
+	transition: .3s;
+}
+
+a:hover {
+	color: lighten($blue, 20%);
+}
+
+
+.banner h1 {
+	line-height: 1.8;
+}
+
+
+.footer {
+	text-align: center;
+	padding: 20px;
+	font-family: $header-font;
+	font-weight: 100;
+	font-size: .9em;
+	opacity: .5;
+}

@@ -1,0 +1,73 @@
+.logo-svg * {
+	transform-origin: 50% 50%;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(1turn);
+	}
+	}
+	
+@keyframes grow {
+	0% {
+		transform: scale(1);
+	}
+	
+	20% {
+		transform: scale(.8);
+	}
+	
+	30% {
+		transform: scale(1);
+	}
+	
+	60% {
+		transform: scale(.8);
+	}
+	
+	
+	100% {
+		transform: scale(1);
+	}
+	
+}
+
+
+.lens {
+	animation: grow 2s ease-in-out;
+}
+
+.filters {
+	animation: spin 2s ease-out;
+}
+
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  opacity: 1;
+  transition: all .3s; 
+  }
+ 
+
+a.facebook {
+  background-image: url(../img/facebook.svg); }
+
+a.cart {
+  background-image: url(../img/cart.svg); }
+
+a.mail {
+  background-image: url(../img/mail.svg); }
+
+a.social:hover {
+	opacity: .75;
+	}
