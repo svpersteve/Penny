@@ -78,7 +78,6 @@ a.social:hover {
   justify-content: center; }
 
 .banner {
-  margin: 60px;
   padding: 50px;
   text-align: center;
   flex-direction: column;
@@ -127,7 +126,7 @@ a {
 
 h1,
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold; }
 
 h1 {
