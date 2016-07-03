@@ -82,7 +82,9 @@ a.social:hover {
   padding: 50px;
   text-align: center;
   flex-direction: column;
-  align-items: space-between; }
+  align-items: space-between;
+  height: 100vh;
+  }
 
 .social-icons {
   padding: 40px;
