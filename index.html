@@ -48,6 +48,10 @@
 			</div>
 		</div>
 
+		<div class="search">
+			<input type="text" id="search" name="search" placeholder="Search..." data-list=".gallery">
+		</div>
+
     <div class="gallery">
       <script>
         $('.gallery').jflickrfeed({
@@ -55,8 +59,15 @@
           qstrings: {
             id: '143796924@N08'
           },
-          itemTemplate: '<div class="photo"><a class="fancybox" rel="group" href="{{image_b}}" title="{{title}}"> <img alt="{{title}}" src="{{image_b}}" /></div>'
-        });
+          itemTemplate: '<div class="photo" class="{{title}}" title="{{title}}"><a class="fancybox" rel="group" href="{{image_b}}" title="{{title}}"> <img alt="{{title}}" src="{{image_b}}" /></div>'
+	        });
+
+				$(document).ready(function() {
+			    $('#search').hideseek({
+			    		attribute: 'title'
+				    });
+				});
+
       </script>
       </div>
     </div>

@@ -49,6 +49,20 @@ a.mail {
 a.social:hover {
   opacity: .75; }
 
+.search {
+  text-align: center;
+
+}
+
+input[type=text] {
+  padding: 20px;
+  height: 20px;
+  width: 30%;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-size: 1.2em;
+}
+
 .gallery {
   display: flex;
   flex-flow: row wrap;
